@@ -7,18 +7,6 @@
       "y": 40
     },
     "ActionMetadata": {
-      "60d6a174-bb3c-4440-a62d-2c0e53162338": {
-        "position": {
-          "x": 1288.8,
-          "y": 712
-        }
-      },
-      "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370": {
-        "position": {
-          "x": 982.4,
-          "y": 636
-        }
-      },
       "098e0ab2-46f3-4399-853c-d28d2d1446cc": {
         "position": {
           "x": -21.6,
@@ -97,12 +85,6 @@
         },
         "contactFlowModuleName": "5digit-randomnumbergenerator-OTP"
       },
-      "f5761097-beb1-4de3-af1f-595fcf45370e": {
-        "position": {
-          "x": 658.4,
-          "y": 620
-        }
-      },
       "9022ded0-3d80-48f2-940d-aae5ed3477a2": {
         "position": {
           "x": 265.6,
@@ -111,7 +93,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "a8f946b1-d198-43d5-9964-2f4df57b5db7",
+            "id": "1059ae8c-55ed-4a51-9948-1381ff3dc001",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -210,7 +192,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "944dc104-45bd-4460-aeb6-a84ec5e3eb78",
+            "id": "ba3a7f32-5a49-4063-8d18-91c8e80e5744",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -219,6 +201,24 @@
             "value": "$.Attributes.OTPvalue"
           }
         ]
+      },
+      "60d6a174-bb3c-4440-a62d-2c0e53162338": {
+        "position": {
+          "x": 1288.8,
+          "y": 712
+        }
+      },
+      "f5761097-beb1-4de3-af1f-595fcf45370e": {
+        "position": {
+          "x": 658.4,
+          "y": 620
+        }
+      },
+      "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370": {
+        "position": {
+          "x": 982.4,
+          "y": 636
+        }
       }
     },
     "Annotations": [],
@@ -229,28 +229,6 @@
     "hash": {}
   },
   "Actions": [
-    {
-      "Parameters": {},
-      "Identifier": "60d6a174-bb3c-4440-a62d-2c0e53162338",
-      "Type": "DisconnectParticipant",
-      "Transitions": {}
-    },
-    {
-      "Parameters": {
-        "Text": "This is just a test for chat, goodbye"
-      },
-      "Identifier": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
-        "Errors": [
-          {
-            "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
     {
       "Parameters": {
         "FlowLoggingBehavior": "Enabled"
@@ -368,22 +346,6 @@
         "Errors": [
           {
             "NextAction": "9022ded0-3d80-48f2-940d-aae5ed3477a2",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "Text": "Your on time pin is $.Attributes.OTPvalue"
-      },
-      "Identifier": "f5761097-beb1-4de3-af1f-595fcf45370e",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
-        "Errors": [
-          {
-            "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
             "ErrorType": "NoMatchingError"
           }
         ]
@@ -609,6 +571,44 @@
           {
             "NextAction": "c2c6316d-de7d-4bab-b0db-2cacde1799c8",
             "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Your on time pin is $.Attributes.OTPvalue"
+      },
+      "Identifier": "f5761097-beb1-4de3-af1f-595fcf45370e",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+        "Errors": [
+          {
+            "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "This is just a test for chat, goodbye"
+      },
+      "Identifier": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+        "Errors": [
+          {
+            "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+            "ErrorType": "NoMatchingError"
           }
         ]
       }
