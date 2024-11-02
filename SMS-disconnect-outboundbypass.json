@@ -1,0 +1,32 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "3261e890-cc06-46ee-8505-f06e25b71c7a",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "3261e890-cc06-46ee-8505-f06e25b71c7a": {
+        "position": {
+          "x": 152,
+          "y": 111.2
+        }
+      }
+    },
+    "Annotations": [],
+    "name": "SMS-disconnect-outboundbypass",
+    "description": "",
+    "type": "contactFlow",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "3261e890-cc06-46ee-8505-f06e25b71c7a",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    }
+  ]
+}
