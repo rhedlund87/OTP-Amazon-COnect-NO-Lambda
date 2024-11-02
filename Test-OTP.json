@@ -1,0 +1,617 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "098e0ab2-46f3-4399-853c-d28d2d1446cc",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "60d6a174-bb3c-4440-a62d-2c0e53162338": {
+        "position": {
+          "x": 1288.8,
+          "y": 712
+        }
+      },
+      "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370": {
+        "position": {
+          "x": 982.4,
+          "y": 636
+        }
+      },
+      "098e0ab2-46f3-4399-853c-d28d2d1446cc": {
+        "position": {
+          "x": -21.6,
+          "y": 155.2
+        }
+      },
+      "74c03e69-85a4-4618-918d-f1170873be8d": {
+        "position": {
+          "x": 69.6,
+          "y": 385.6
+        },
+        "overrideConsoleVoice": true
+      },
+      "6fbb4721-e7c3-4728-82df-91614c54ccab": {
+        "position": {
+          "x": 2624,
+          "y": 518.4
+        }
+      },
+      "a52a8a19-6dff-4f5b-b77e-c98b86e1a5e3": {
+        "position": {
+          "x": 2295.2,
+          "y": 211.2
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "b7834b19-91e2-4b1a-980b-d4b5d4d671ea": {
+        "position": {
+          "x": 2533.6,
+          "y": 216
+        }
+      },
+      "672aa2c0-773d-445f-bcf5-5e7a08118acf": {
+        "position": {
+          "x": 2262.4,
+          "y": 476.8
+        }
+      },
+      "150236e7-7452-4674-b861-c4b11a1ef184": {
+        "position": {
+          "x": 2035.2,
+          "y": 475.2
+        },
+        "parameters": {
+          "SourceEndpoint": {
+            "Address": {
+              "displayName": "+18449865279"
+            }
+          },
+          "DestinationEndpoint": {
+            "Address": {
+              "useDynamic": true
+            }
+          },
+          "ContactFlowArn": {
+            "displayName": "SMS-disconnect-outboundbypass"
+          }
+        }
+      },
+      "72da2d84-1888-4d52-87b9-e67e41b1e757": {
+        "position": {
+          "x": 319.2,
+          "y": 128
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "displayName": "5digit-randomnumbergenerator-OTP"
+          }
+        },
+        "contactFlowModuleName": "5digit-randomnumbergenerator-OTP"
+      },
+      "f5761097-beb1-4de3-af1f-595fcf45370e": {
+        "position": {
+          "x": 658.4,
+          "y": 620
+        }
+      },
+      "9022ded0-3d80-48f2-940d-aae5ed3477a2": {
+        "position": {
+          "x": 265.6,
+          "y": 452
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "a8f946b1-d198-43d5-9964-2f4df57b5db7",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "CHAT"
+          }
+        ]
+      },
+      "8286737e-e608-4de5-aa8a-4d89ffa461f6": {
+        "position": {
+          "x": 541.6,
+          "y": 356.8
+        },
+        "dynamicParams": []
+      },
+      "708b64d2-886b-4491-a5b6-02690c496a93": {
+        "position": {
+          "x": 784,
+          "y": 165.6
+        },
+        "parameters": {
+          "SourceEndpoint": {
+            "Address": {
+              "displayName": "+18449865279"
+            }
+          },
+          "DestinationEndpoint": {
+            "Address": {
+              "useDynamic": true
+            }
+          },
+          "ContactFlowArn": {
+            "displayName": "SMS-disconnect-outboundbypass"
+          },
+          "InitialSystemMessage": {
+            "Content": {
+              "useDynamic": true
+            }
+          }
+        }
+      },
+      "fa988d5e-6739-412f-a21b-b18ded1119fb": {
+        "position": {
+          "x": 1720,
+          "y": 678.4
+        }
+      },
+      "ce4cc3ad-fb29-4f8f-9047-d610f86441b5": {
+        "position": {
+          "x": 1006.4,
+          "y": 160
+        }
+      },
+      "e9b8f44b-c566-4bf2-a581-239b263cdfc2": {
+        "position": {
+          "x": 1239.2,
+          "y": 158.4
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "3506db37-3598-4f27-bb74-b8290cf75b8d": {
+        "position": {
+          "x": 2035.2,
+          "y": 202.4
+        }
+      },
+      "c2c6316d-de7d-4bab-b0db-2cacde1799c8": {
+        "position": {
+          "x": 1744,
+          "y": 453.6
+        }
+      },
+      "744dc845-21c8-4daf-8a85-0e08aefb8a88": {
+        "position": {
+          "x": 1472.8,
+          "y": 169.6
+        },
+        "parameters": {
+          "Attributes": {
+            "CustomerOTP": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "CustomerOTP"
+        ]
+      },
+      "c00aad7a-e28a-4b07-8d95-bb4a218d7f8d": {
+        "position": {
+          "x": 1736.8,
+          "y": 196
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "944dc104-45bd-4460-aeb6-a84ec5e3eb78",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "$.Attributes.OTPvalue"
+          }
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "Test-OTP",
+    "description": "",
+    "type": "contactFlow",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "This is just a test for chat, goodbye"
+      },
+      "Identifier": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+        "Errors": [
+          {
+            "NextAction": "60d6a174-bb3c-4440-a62d-2c0e53162338",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "098e0ab2-46f3-4399-853c-d28d2d1446cc",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "74c03e69-85a4-4618-918d-f1170873be8d"
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechEngine": "Neural",
+        "TextToSpeechStyle": "None",
+        "TextToSpeechVoice": "Gregory"
+      },
+      "Identifier": "74c03e69-85a4-4618-918d-f1170873be8d",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "72da2d84-1888-4d52-87b9-e67e41b1e757"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-east-1:147985041651:instance/cfc25499-8c1b-4773-acf7-b3cd3a24a6ee/queue/8b1f305f-0628-418b-bb3c-59405f1dde04"
+      },
+      "Identifier": "a52a8a19-6dff-4f5b-b77e-c98b86e1a5e3",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "b7834b19-91e2-4b1a-980b-d4b5d4d671ea",
+        "Errors": [
+          {
+            "NextAction": "b7834b19-91e2-4b1a-980b-d4b5d4d671ea",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "b7834b19-91e2-4b1a-980b-d4b5d4d671ea",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+        "Errors": [
+          {
+            "NextAction": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Please try your call again, Good Bye."
+      },
+      "Identifier": "672aa2c0-773d-445f-bcf5-5e7a08118acf",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+        "Errors": [
+          {
+            "NextAction": "6fbb4721-e7c3-4728-82df-91614c54ccab",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SourceEndpoint": {
+          "Address": "arn:aws:connect:us-east-1:147985041651:phone-number/14eff10a-81e7-4a40-b50f-858efc698a1d",
+          "Type": "CONNECT_PHONENUMBER_ARN"
+        },
+        "DestinationEndpoint": {
+          "Address": "$.CustomerEndpoint.Address",
+          "Type": "TELEPHONE_NUMBER"
+        },
+        "ContactFlowArn": "arn:aws:connect:us-east-1:147985041651:instance/cfc25499-8c1b-4773-acf7-b3cd3a24a6ee/contact-flow/8882e07b-aab1-4c2a-b6ba-af68855c44e3",
+        "ContactSubtype": "connect:SMS",
+        "InitialSystemMessage": {
+          "Content": "The PIN code sent to you did not match your IVR input, If you did not request this pin code please call our FRAUD alert line at 1-800-999-5555."
+        }
+      },
+      "Identifier": "150236e7-7452-4674-b861-c4b11a1ef184",
+      "Type": "StartOutboundChatContact",
+      "Transitions": {
+        "NextAction": "672aa2c0-773d-445f-bcf5-5e7a08118acf",
+        "Errors": [
+          {
+            "NextAction": "672aa2c0-773d-445f-bcf5-5e7a08118acf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "5950ec04-9729-454f-9d27-122715a2e11c"
+      },
+      "Identifier": "72da2d84-1888-4d52-87b9-e67e41b1e757",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "9022ded0-3d80-48f2-940d-aae5ed3477a2",
+        "Errors": [
+          {
+            "NextAction": "9022ded0-3d80-48f2-940d-aae5ed3477a2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Your on time pin is $.Attributes.OTPvalue"
+      },
+      "Identifier": "f5761097-beb1-4de3-af1f-595fcf45370e",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+        "Errors": [
+          {
+            "NextAction": "6aff7add-a8a8-4da4-a9e0-ca5d09d4a370",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Channel"
+      },
+      "Identifier": "9022ded0-3d80-48f2-940d-aae5ed3477a2",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "8286737e-e608-4de5-aa8a-4d89ffa461f6",
+        "Conditions": [
+          {
+            "NextAction": "f5761097-beb1-4de3-af1f-595fcf45370e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "CHAT"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "8286737e-e608-4de5-aa8a-4d89ffa461f6",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "SMSPIN": "Your One Time Pin code is: $.Attributes.OTPvalue  If you did not request this pin code please call our FRAUD alert line at 1-800-999-5555."
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "8286737e-e608-4de5-aa8a-4d89ffa461f6",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "708b64d2-886b-4491-a5b6-02690c496a93",
+        "Errors": [
+          {
+            "NextAction": "708b64d2-886b-4491-a5b6-02690c496a93",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SourceEndpoint": {
+          "Address": "arn:aws:connect:us-east-1:147985041651:phone-number/14eff10a-81e7-4a40-b50f-858efc698a1d",
+          "Type": "CONNECT_PHONENUMBER_ARN"
+        },
+        "DestinationEndpoint": {
+          "Address": "$.CustomerEndpoint.Address",
+          "Type": "TELEPHONE_NUMBER"
+        },
+        "ContactFlowArn": "arn:aws:connect:us-east-1:147985041651:instance/cfc25499-8c1b-4773-acf7-b3cd3a24a6ee/contact-flow/8882e07b-aab1-4c2a-b6ba-af68855c44e3",
+        "ContactSubtype": "connect:SMS",
+        "InitialSystemMessage": {
+          "Content": "$.Attributes.SMSPIN"
+        }
+      },
+      "Identifier": "708b64d2-886b-4491-a5b6-02690c496a93",
+      "Type": "StartOutboundChatContact",
+      "Transitions": {
+        "NextAction": "ce4cc3ad-fb29-4f8f-9047-d610f86441b5",
+        "Errors": [
+          {
+            "NextAction": "ce4cc3ad-fb29-4f8f-9047-d610f86441b5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "That pin code did not match, we will let you try one more time."
+      },
+      "Identifier": "fa988d5e-6739-412f-a21b-b18ded1119fb",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "e9b8f44b-c566-4bf2-a581-239b263cdfc2",
+        "Errors": [
+          {
+            "NextAction": "e9b8f44b-c566-4bf2-a581-239b263cdfc2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "We just sent you a One time pin code.\nYou will need to enter that next to continue."
+      },
+      "Identifier": "ce4cc3ad-fb29-4f8f-9047-d610f86441b5",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "e9b8f44b-c566-4bf2-a581-239b263cdfc2",
+        "Errors": [
+          {
+            "NextAction": "e9b8f44b-c566-4bf2-a581-239b263cdfc2",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Please enter the 5 digit, One time pin code we Texted you to continue.",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "30"
+          }
+        }
+      },
+      "Identifier": "e9b8f44b-c566-4bf2-a581-239b263cdfc2",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "744dc845-21c8-4daf-8a85-0e08aefb8a88",
+        "Errors": [
+          {
+            "NextAction": "744dc845-21c8-4daf-8a85-0e08aefb8a88",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Thank you, PIN verified. We will now route you to an agent."
+      },
+      "Identifier": "3506db37-3598-4f27-bb74-b8290cf75b8d",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "a52a8a19-6dff-4f5b-b77e-c98b86e1a5e3",
+        "Errors": [
+          {
+            "NextAction": "a52a8a19-6dff-4f5b-b77e-c98b86e1a5e3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "1"
+      },
+      "Identifier": "c2c6316d-de7d-4bab-b0db-2cacde1799c8",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "150236e7-7452-4674-b861-c4b11a1ef184",
+        "Conditions": [
+          {
+            "NextAction": "fa988d5e-6739-412f-a21b-b18ded1119fb",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "150236e7-7452-4674-b861-c4b11a1ef184",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "CustomerOTP": "$.StoredCustomerInput"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "744dc845-21c8-4daf-8a85-0e08aefb8a88",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c00aad7a-e28a-4b07-8d95-bb4a218d7f8d",
+        "Errors": [
+          {
+            "NextAction": "c00aad7a-e28a-4b07-8d95-bb4a218d7f8d",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.CustomerOTP"
+      },
+      "Identifier": "c00aad7a-e28a-4b07-8d95-bb4a218d7f8d",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "c2c6316d-de7d-4bab-b0db-2cacde1799c8",
+        "Conditions": [
+          {
+            "NextAction": "3506db37-3598-4f27-bb74-b8290cf75b8d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "$.Attributes.OTPvalue"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "c2c6316d-de7d-4bab-b0db-2cacde1799c8",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    }
+  ]
+}
