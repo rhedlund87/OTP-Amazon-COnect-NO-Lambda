@@ -32,6 +32,6 @@ This guide will walk you through Importing one [Amazon Connect Flow Module](http
 
 
 
-*NOTE* Currently it the Send Message block does not import with the flow. Two send message blocks need to be added to the flow after Set COntact Attrobutes for SMSPIN varibale and After the Complete output form the Loop step.  
+*NOTE:* Currently it the Send Message block does not import with the flow. Two send message blocks need to be added to the flow after Set COntact Attrobutes for SMSPIN varibale and After the Complete output form the Loop step.  
 
 ### Testing the Solution
