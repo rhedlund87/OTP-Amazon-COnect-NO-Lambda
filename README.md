@@ -29,6 +29,9 @@ This guide will walk you through Importing one [Amazon Connect Flow Module](http
 17. Again, in the upper right hand corner click the blue down arrow and click 'Import (beta)'
 18. Click 'Choose File' and select the **Test-OTP.json** you just downloaded.
 19. Click 'Import'
+
+
+
 *NOTE* Currently it the Send Message block does not import with the flow. Two send message blocks need to be added to the flow after Set COntact Attrobutes for SMSPIN varibale and After the Complete output form the Loop step.  
 
 ### Testing the Solution
